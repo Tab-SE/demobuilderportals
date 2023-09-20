@@ -1,0 +1,61 @@
+<html>
+<head>
+  <link rel="stylesheet" href="css/config.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/page.css">
+  <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="text/javascript" src="https://online.tableau.com/javascripts/api/tableau-2.8.0.min.js"></script>
+  <script src="lib/config.js"></script>
+  <script src="lib/advanced.js"></script>
+  <script src="tableau.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tableau Example</title>
+</head>
+<body onload="loadVizInit()">
+<div class="grid-container">
+  
+  <div class="LeftPad"></div>
+  <div class="RightPad"></div>
+
+  <div class="Header">
+    <div class="logo">
+      <div><img id="img-logo" class="log img-editable" src="https://www.alteirac.com/tableau-logo-png-white.png"/></div>
+      <!-- <div id="Brand-Name-text" class="editable">My Brand</div> -->
+      <div class="person">
+        <div class="header_right">
+          <img id="img-avatar" class="usrpic img-editable" src="https://assets.webiconspng.com/uploads/2016/12/User-Icon.png"/>
+          <span id="User-text" class="editable">User</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ButtonBar">
+    <a class="viz" index="1" href="#" onclick="loadVizByIndex(0)"><i class="fa fa-chart-line"></i><div id="Viz-1-text" class="editable">Viz 1</div></a>
+    <a class="viz" index="2" href="#" onclick="loadVizByIndex(1)"><i class="fa fa-chart-line"></i><div id="Viz-2-text" class="editable">Viz 2</div></a>
+    <a class="viz" index="3" href="#" onclick="loadVizByIndex(2)"><i class="fa fa-chart-line"></i><div id="Viz-3-text" class="editable">Viz 3</div></a>
+    <a class="viz" index="4" href="#" onclick="loadVizByIndex(3)"><i class="fa fa-chart-line"></i><div id="Viz-4-text" class="editable">Viz 4</div></a>
+
+    <div class="divider">|</div>
+    <div class="filter-container">
+      <a href="#" onclick="resetViz()">   <i class="fa fa-undo"></i><div id="Reset-Viz-text" class="editable">Reset Viz</div></a>
+    </div>
+    <div class="divider">|</div>
+
+    
+    <a href="#" onclick="dataDownload()"><i class="fa fa-file-download"></i><div id="Download-Data-text" class="editable">Download Data</div></a>
+    <a class="webedit" href="#" onclick="launchEdit()"><i class="fa fa-pencil-ruler"></i><div id="WebEdit-text" class="editable">Web Edit</div></a>
+    <a class="askdata" href="#" onclick="launchAsk()"><i class="fa fa-comment-dots"></i><div id="AskData-text" class="editable">Ask data</div></a>
+    <a class="action" href="#" onclick="launchAction()"><i class="fa fa-clipboard"></i><div id="Action-text" class="editable">Action</div></a>
+  </div>
+
+  <div class="Content">
+      <div id="tableauViz"></div>
+  </div>
+
+
+  <div class="Footer"><ul><li class="editable" id="Terms-text">Terms & Conditions</li><li id="PrivacyPolicy-text" class="editable">Privacy Policy</li></ul></div>
+</div>
+</body>
+</html>

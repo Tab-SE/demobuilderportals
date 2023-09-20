@@ -1,0 +1,9 @@
+var tab_server = ["https://public.tableau.com/views/AnlisisdeZonasTuristicasenEspaa/Gestindezonastursticas?:showVizHome=no&:embed=true","https://public.tableau.com/views/CmohacambiadolanatalidadenEspaa_16158138490250/CmohacambiadolanatalidadenEspaa?:showVizHome=no&:embed=true","https://public.tableau.com/views/MadridInDetail/MadridinDetail?:showVizHome=no&:embed=true","https://public.tableau.com/views/Qualityoflifein85Europeancities/Qualityoflifein87Europeancities?:showVizHome=no&:embed=true"];
+  var tab_filter=[[],[],[],[]];
+  var tab_web=[{"key":"1","val":"true"},{"key":"0","val":"true"},{"key":"2","val":"false"},{"key":"3","val":"false"}];
+  var tab_ask=[{"key":"1","val":""},{"key":"2","val":""},{"key":"3","val":""},{"key":"0","val":""}];
+  var tab_param=[["Zona turística principal"],[],[],[]]; 
+  var tab_text=[{"key":"Download-Data-text","val":"Descarga"},{"key":"Viz-4-text","val":"Ciudades%20en%20Europa"},{"key":"User-text","val":"Usuario"},{"key":"Action-text","val":"Action%20"},{"key":"Viz-1-text","val":"Zonas%20tur%C3%ADsticas"},{"key":"Reset-Viz-text","val":"Restaurar"},{"key":"Filter-text-Zona turística principal","val":"Zona%20tur%C3%ADstica"},{"key":"PrivacyPolicy-text","val":"Pol%C3%ADtica%20de%20privacidad"},{"key":"Viz-3-text","val":"Detalle%20de%20Madrid"},{"key":"Viz-2-text","val":"Natalidad%20en%20Espa%C3%B1a"},{"key":"WebEdit-text","val":"Edita"},{"key":"Terms-text","val":"T%C3%A9rminos%20y%20condiciones"},{"key":"AskData-text","val":"Ask%20data%20"}];
+  var tab_img=[{"key":"img-logo","val":"https://www.ine.es/menus/_b/img/logoINESocial.png"},{"key":"img-avatar","val":"https://assets.webiconspng.com/uploads/2016/12/User-Icon.png"}];
+  var tab_action=[{"key":"1","val":"false"},{"key":"0","val":"false"},{"key":"2","val":"false"},{"key":"3","val":"false"}];
+  var title_index="INE";
