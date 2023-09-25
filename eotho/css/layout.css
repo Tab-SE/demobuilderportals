@@ -1,0 +1,99 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+ 
+.header_right{
+  display: flex;
+  line-height: 25px;
+}
+
+.grid-container {
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 0.1fr 2.8fr 0.1fr;
+  grid-template-rows: 0.08fr 0.04fr auto 0.03fr;
+  gap: 0px 0px;
+  grid-template-areas: "Header Header Header" "ButtonBar ButtonBar ButtonBar" "LeftPad MainContent RightPad" "Footer Footer Footer";
+}
+
+.ButtonBar { grid-area: ButtonBar; }
+
+.Footer { grid-area: Footer; }
+
+.Header { grid-area: Header; }
+
+.Content { grid-area: MainContent; }
+
+.LeftPad { grid-area: LeftPad; }
+
+.RightPad { grid-area: RightPad; }
+
+.Header {
+  background-color: var(--Header-Background);
+  color: var(--Header-Text);
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+}
+.ButtonBar { 
+  background-color: var(--Button-Background);
+  color: var(--Button-Text);
+}
+.Footer {
+  background-color: var(--Footer-Background);
+  color: var(--Footer-Text);
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.Content {
+  background-color: var(--Content-Background);
+  color: var(--Content-Text);
+  margin-top: 10px;
+}
+.log{
+  max-height: 50px;
+  width: auto;
+  margin: 10px;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+  color: var(--Header-Text);
+  display: flex;
+}
+.person {
+  margin: auto 20px auto auto;
+}
+
+.tandc {
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.footer > ul > li { 
+  display: inline;
+margin-left: 30px;
+color: var(--Footer-Text);
+}
+
+.footer > ul {
+margin: 0px;
+width: 100%;
+text-align: right;
+}
+
+.footer{
+  margin-top: 20px;
+  height: 40px;
+}
+
+@media (max-width: 800px) {
+  .editable {
+    font-size: 0px;
+  }
+}
