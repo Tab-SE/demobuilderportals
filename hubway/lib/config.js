@@ -40,7 +40,7 @@ var tab_img = [
   },
   {
     key: "img-logo",
-    val: "https://www.pngkey.com/png/full/976-9767075_hubway-curative-cupping.png",
+    val: "https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Hubway-1-900x0.png",
   },
 ];
 var tab_action = [
