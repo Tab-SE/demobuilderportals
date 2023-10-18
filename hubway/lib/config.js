@@ -40,7 +40,7 @@ var tab_img = [
   },
   {
     key: "img-logo",
-    val: "https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Hubway-1-900x0.png",
+    val: "./Hubway.png",
   },
 ];
 var tab_action = [
