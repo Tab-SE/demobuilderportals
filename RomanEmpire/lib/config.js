@@ -1,0 +1,9 @@
+var tab_server = ["https://public.tableau.com/views/RomanEmpireEstablishmentVotD/RomanEmpire?:showVizHome=no&:embed=true","https://public.tableau.com/views/LivesandDeathsofRomanEmperors27BC-AD476/RomanEmpire27BC-AD476?:showVizHome=no&:embed=true","",""];
+  var tab_filter=[[],["Name"],[],[]];
+  var tab_web=[{"key":"0","val":"false"},{"key":"1","val":"true"},{"key":"3","val":"false"},{"key":"2","val":"false"}];
+  var tab_ask=[{"key":"3","val":""},{"key":"1","val":""},{"key":"2","val":""},{"key":"0","val":""}];
+  var tab_param=[["Empr Group","Year"],[],[],[]]; 
+  var tab_text=[{"key":"Download-Data-text","val":"Download%20Data%20"},{"key":"Viz-4-text","val":"Viz%204%20"},{"key":"Reset-Viz-text","val":"Reset%20Viz%20"},{"key":"Filter-text-Empr Group","val":"Empire%20or%20Republic"},{"key":"AskData-text","val":"Ask%20data%20"},{"key":"Filter-text-Roman Empire","val":"Roman%20Empire"},{"key":"Viz-2-text","val":"Emperor%20Timeline"},{"key":"Filter-text-Name","val":"Name"},{"key":"Filter-text-Index","val":"Index"},{"key":"WebEdit-text","val":"Web%20Edit%20"},{"key":"User-text","val":"Trajan"},{"key":"Viz-3-text","val":"Viz%203%20"},{"key":"Terms-text","val":""},{"key":"PrivacyPolicy-text","val":"%E2%80%ABThanks%20to%20Nir%20Smilga%E2%80%AC%20for%20the%20VotD%E2%80%8E"},{"key":"Viz-1-text","val":"Empire%20Map"},{"key":"Action-text","val":"Google%20Search"},{"key":"Filter-text-Year","val":"Year"}];
+  var tab_img=[{"key":"img-logo","val":"https://thefdl.co.uk/horiz/img/romanempire.JPG"},{"key":"img-avatar","val":"https://cdn.britannica.com/09/4709-050-E3189959/Trajan-marble-bust-British-Museum.jpg"}];
+  var tab_action=[{"key":"3","val":"false"},{"key":"0","val":"true"},{"key":"2","val":"false"},{"key":"1","val":"false"}];
+  var title_index="RomanEmpire";
