@@ -1,0 +1,9 @@
+var tab_server = ["https://public.tableau.com/views/MB-CreditRisk-Dashboard/CreditRisk?:showVizHome=no&:embed=true","https://public.tableau.com/views/MB-CreditRisk-CustomerList/CreditCardCustomerList?:showVizHome=no&:embed=true","",""];
+  var tab_filter=[["Product"],[],[],[]];
+  var tab_web=[{"key":"1","val":"false"},{"key":"0","val":"false"},{"key":"2","val":"false"},{"key":"3","val":"false"}];
+  var tab_ask=[{"key":"0","val":""},{"key":"1","val":""},{"key":"2","val":""},{"key":"3","val":""}];
+  var tab_param=[[],["pLiquidity Ratio"],[],[]]; 
+  var tab_text=[{"key":"User-text","val":"CEO%20"},{"key":"Download-Data-text","val":"Download%20Data%20"},{"key":"Action-text","val":"Search%20the%20Web%20"},{"key":"Viz-1-text","val":"Dashboard"},{"key":"Filter-text-Product","val":"Product"},{"key":"Filter-text-pLiquidity Ratio","val":"Liquidity%20Ratio"},{"key":"Reset-Viz-text","val":"Reset%20Viz%20"},{"key":"Viz-4-text","val":"Viz%204%20"},{"key":"PrivacyPolicy-text","val":"Privacy%20Policy%20"},{"key":"Viz-3-text","val":"Viz%203%20"},{"key":"Viz-2-text","val":"Customer%20List"},{"key":"WebEdit-text","val":"Web%20Edit%20"},{"key":"Terms-text","val":"Terms%20%26%20Conditions%20"},{"key":"AskData-text","val":"Ask%20data%20"}];
+  var tab_img=[{"key":"img-logo","val":"https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/insurance-for-financial-services-cloud-admin-essentials/say-hello-to-insurance-for-financial-services-cloud/images/b662e9f4a6b938d6ee851aa72c13bdc9_2579-b-08-a-863-e-4-c-15-840-c-a-27-da-8-e-165-f-1.png"},{"key":"img-avatar","val":"https://images.thedirect.com/media/article_full/ricky-and-morty-season-7-bad-reviews_AACFzua.jpg"}];
+  var tab_action=[{"key":"1","val":"false"},{"key":"0","val":"true"},{"key":"2","val":"false"},{"key":"3","val":"false"}];
+  var title_index="MBCreditRisk";
