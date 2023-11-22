@@ -1,0 +1,9 @@
+var tab_server = ["https://public.tableau.com/views/VS-EventsDashboard-Sustainability/ProductConversion?:showVizHome=no&:embed=true","https://public.tableau.com/views/VS-EventsDashboard-SentimentAnalysis/SentimentAnalysis?:showVizHome=no&:embed=true","",""];
+  var tab_filter=[["Topic","User Level"],[],[],[]];
+  var tab_web=[{"key":"1","val":"false"},{"key":"2","val":"false"},{"key":"0","val":"false"},{"key":"3","val":"false"}];
+  var tab_ask=[{"key":"3","val":""},{"key":"0","val":""},{"key":"1","val":""},{"key":"2","val":""}];
+  var tab_param=[[],[],[],[]]; 
+  var tab_text=[{"key":"User-text","val":"User%20"},{"key":"Download-Data-text","val":"Download%20Data%20"},{"key":"Action-text","val":"Action%20"},{"key":"Viz-1-text","val":"Event%20Conversion"},{"key":"Filter-text-Topic","val":"Topic"},{"key":"WebEdit-text","val":"Web%20Edit%20"},{"key":"Filter-text-User Level","val":"User%20Level"},{"key":"Terms-text","val":"Terms%20%26%20Conditions%20"},{"key":"Viz-4-text","val":"Viz%204%20"},{"key":"Reset-Viz-text","val":"Reset%20Viz%20"},{"key":"AskData-text","val":"Ask%20data%20"},{"key":"PrivacyPolicy-text","val":"Privacy%20Policy%20"},{"key":"Viz-3-text","val":"Viz%203%20"},{"key":"Viz-2-text","val":"Sentiment%20Analysis"}];
+  var tab_img=[{"key":"img-logo","val":"https://tab-se.github.io/demobuilderportals/assets/TABlogo_wht.png"},{"key":"img-avatar","val":"https://ih1.redbubble.net/image.4909169013.4062/flat,750x,075,f-pad,750x1000,f8f8f8.webp"}];
+  var tab_action=[{"key":"2","val":"false"},{"key":"1","val":"false"},{"key":"0","val":"false"},{"key":"3","val":"false"}];
+  var title_index="Vertical";
