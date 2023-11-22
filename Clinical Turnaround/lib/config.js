@@ -1,0 +1,9 @@
+var tab_server = ["https://public.tableau.com/views/TKClinicalTurnaround/ClinicalTurnaroundTimeAnalysis?:showVizHome=no&:embed=true","https://public.tableau.com/views/TKClinicalTurnaround2/DepartmentMetrics?:showVizHome=no&:embed=true","",""];
+  var tab_filter=[["Care Team","Department"],[],[],[]];
+  var tab_web=[{"key":"0","val":"false"},{"key":"1","val":"false"},{"key":"3","val":"false"},{"key":"2","val":"false"}];
+  var tab_ask=[{"key":"3","val":""},{"key":"1","val":""},{"key":"2","val":""},{"key":"0","val":""}];
+  var tab_param=[[],[],[],[]]; 
+  var tab_text=[{"key":"Download-Data-text","val":"Download%20Data%20"},{"key":"Viz-4-text","val":"Viz%204%20"},{"key":"Reset-Viz-text","val":"Reset%20Viz%20"},{"key":"AskData-text","val":"Ask%20data%20"},{"key":"Viz-2-text","val":"Department%20KPIs"},{"key":"Filter-text-Care Team","val":"Care%20Team"},{"key":"Filter-text-Department","val":"Department"},{"key":"WebEdit-text","val":"Web%20Edit%20"},{"key":"User-text","val":"User%20"},{"key":"Viz-3-text","val":"Viz%203%20"},{"key":"Terms-text","val":"Terms%20%26%20Conditions%20"},{"key":"PrivacyPolicy-text","val":"Privacy%20Policy%20"},{"key":"Viz-1-text","val":"Clinical%20Turnaround%20Time"},{"key":"Action-text","val":"Action%20"}];
+  var tab_img=[{"key":"img-logo","val":"https://i.pinimg.com/280x280_RS/09/7b/d0/097bd05045f2a13580ce28ee7fc8d46e.jpg"},{"key":"img-avatar","val":"https://m.media-amazon.com/images/M/MV5BMTQ5Nzg2MTgwMl5BMl5BanBnXkFtZTcwNTA0NjcxMw@@._V1_.jpg"}];
+  var tab_action=[{"key":"3","val":"false"},{"key":"0","val":"false"},{"key":"2","val":"false"},{"key":"1","val":"true"}];
+  var title_index="TKClinicalTurnaround";
