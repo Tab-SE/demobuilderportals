@@ -1,0 +1,91 @@
+
+
+.ButtonBar { 
+  overflow: hidden;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 35px;
+  max-height: 35px;
+  white-space: nowrap;
+} 
+
+.ButtonBar a:not(.filter-entry) {
+  display: inline-flex;
+  font-size: 16px;
+  color: var(--Button-Text);
+  text-align: center;
+  padding-right:10px;
+  padding-left:10px;
+  height: 25px;
+  text-decoration: none;
+  padding-top: 10px;
+  min-width: 10px;
+}
+#tableauViz{
+  position: relative;
+}
+.public-hide-toolbar {
+  position: absolute;
+  bottom: 0px;
+  height: 27px;
+  width: 100%;
+  background-color: var(--Body-Background);
+  display: none;
+}
+.ButtonBar a{
+  transition: all 0.5s;
+}
+.ButtonBar a:hover {
+  background-color: var(--Button-Background-Hover);
+  color: var(--Button-Text-Hover);
+}
+
+html,body{
+  background-color: var(--Body-Background);
+}
+.divider{
+  margin-top: 8px;
+  color:var(--Button-Text);
+}
+.show {
+  display: block!important;
+}
+.filter-container {
+  display: flex;
+}
+.fa{
+  margin-right: 4px;
+}
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: var(--Button-Background);
+  z-index: 1;
+  max-height: 80%;
+  overflow: auto;
+}
+
+/* Links inside the filter dropdown */
+.dropdown-content a {
+  color: var(--Button-Text);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.divider.generic{
+  display: block;;
+}
+.usrpic {
+  height: 25px;
+  margin-right: 10px;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: var(--Button-Background-Hover)}
+
