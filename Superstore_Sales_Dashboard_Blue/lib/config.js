@@ -1,0 +1,9 @@
+var tab_server = ["https://public.tableau.com/views/TP_Sales_Analysis_1/TP_Sales_Overview?:showVizHome=no&:embed=true","https://public.tableau.com/views/TP_Sales_Analysis_3/TP_Customer_Analysis?:showVizHome=no&:embed=true","https://public.tableau.com/views/TP_Sales_Analysis_2/TP_Sales_Analysis?:showVizHome=no&:embed=true",""];
+  var tab_filter=[['Category','Region'],[],['Region','Sales Channel'],[]];
+  var tab_web=[{"key":"0","val":"false"},{"key":"1","val":"false"},{"key":"3","val":"false"},{"key":"2","val":"false"}];
+  var tab_ask=[{"key":"3","val":""},{"key":"1","val":""},{"key":"2","val":""},{"key":"0","val":""}];
+  var tab_param=[[],['Customer Name parameter'],[],[]]; 
+  var tab_text=[{"key":"Download-Data-text","val":"Download%20Data%20"},{"key":"Viz-4-text","val":"Viz%204%20"},{"key":"Reset-Viz-text","val":"Reset%20Viz%20"},{"key":"AskData-text","val":"Ask%20data%20"},{"key":"Filter-text-Region","val":"Region"},{"key":"Viz-2-text","val":"Customers"},{"key":"WebEdit-text","val":"Web%20Edit%20"},{"key":"User-text","val":"Tim's%20Sales%20Dashboard"},{"key":"Filter-text-Category","val":"Category"},{"key":"Filter-text-Customer Name parameter","val":"Customer%20Name"},{"key":"Viz-3-text","val":"Sales"},{"key":"Terms-text","val":"Terms%20%26%20Conditions%20"},{"key":"PrivacyPolicy-text","val":"Privacy%20Policy%20"},{"key":"Viz-1-text","val":"Overview"},{"key":"Action-text","val":"Google%20Search"},{"key":"Filter-text-Sales Channel","val":"Sales%20Channel"}];
+  var tab_img=[{"key":"img-logo","val":"http://www.shopequipment.ie/cdn/shop/products/7.799.14.03BW_5ed63471-7eb9-4ac0-9362-d8831c40988e.jpg?v\\u003d1678444851"},{"key":"img-avatar","val":"https://tab-se.github.io/demobuilderportals/assets/user_avatar.png"}];
+  var tab_action=[{"key":"3","val":"false"},{"key":"0","val":"false"},{"key":"2","val":"true"},{"key":"1","val":"true"}];
+  var title_index="Superstore_Sales_Dashboard_Blue";
