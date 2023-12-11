@@ -1,0 +1,9 @@
+var tab_server = ["https://public.tableau.com/views/embLanding/Chiffrescls2023?:showVizHome=no&:embed=true","https://public.tableau.com/views/embOps/Oprations?:showVizHome=no&:embed=true","https://public.tableau.com/views/embVolumes/Activitcommerciale?:showVizHome=no&:embed=true",""];
+  var tab_filter=[["Category","Sub-Category"],[],[],[]];
+  var tab_web=[{"key":"1","val":"false"},{"key":"2","val":"false"},{"key":"0","val":"false"},{"key":"3","val":"false"}];
+  var tab_ask=[{"key":"3","val":""},{"key":"0","val":""},{"key":"1","val":""},{"key":"2","val":""}];
+  var tab_param=[[],[],[],[]]; 
+  var tab_text=[{"key":"User-text","val":"Alain%20Lok"},{"key":"Download-Data-text","val":"Download%20Data%20"},{"key":"Action-text","val":"Lookup%20Customer"},{"key":"Filter-text-Sub-Category","val":"Sub-Category"},{"key":"Viz-1-text","val":"Chiffres%20cl%C3%A9s%202023"},{"key":"WebEdit-text","val":"Web%20Edit%20"},{"key":"Terms-text","val":"Terms%20%26%20Conditions%20"},{"key":"Viz-4-text","val":"Viz%204%20"},{"key":"Reset-Viz-text","val":"Revert%20changes"},{"key":"Filter-text-Category","val":"Category"},{"key":"AskData-text","val":"Ask%20data%20"},{"key":"PrivacyPolicy-text","val":"Contact%20us!"},{"key":"Viz-3-text","val":"Activit%C3%A9%20commerciale"},{"key":"Viz-2-text","val":"Operations"}];
+  var tab_img=[{"key":"img-logo","val":"https://www.logodee.com/wp-content/uploads/2020/03/Modern-Company-Logo-Design-Ideas.jpg"},{"key":"img-avatar","val":"https://tab-se.github.io/demobuilderportals/assets/user_avatar.png"}];
+  var tab_action=[{"key":"2","val":"true"},{"key":"1","val":"false"},{"key":"0","val":"false"},{"key":"3","val":"false"}];
+  var title_index="EurostoreManagement";
